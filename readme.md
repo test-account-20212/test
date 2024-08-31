@@ -4,7 +4,7 @@
 ### lang = mermaid
 ```mermaid
 graph TD
-    Start-->Stop
+    Start --> Stop
 ```
 
 ### lang = none
@@ -115,7 +115,7 @@ gantt
     Another task     :after a1  , 20d
     section Another
     Task in sec      :2014-01-12  , 12d
-    another task      :24d
+    another task      : 24d
 ```
 
 ### lang = none
@@ -152,6 +152,27 @@ pie
     "Iron" :  5
 ```
 
+## Git
+### lang = mermaid
+```mermaid
+gitGraph:
+options
+{
+    "nodeSpacing": 150,
+    "nodeRadius": 10
+}
+end
+commit
+branch newbranch
+checkout newbranch
+commit
+commit
+checkout master
+commit
+commit
+merge newbranch
+```
+
 ### lang = none
 ```
 gitGraph:
@@ -176,7 +197,6 @@ merge newbranch
 ### lang = mermaid
 ```mermaid
 %%{init: { 'logLevel': 'debug', 'theme': 'dark' } }%%
-graph LR;
+graph >
 A-->B
 ```
-
