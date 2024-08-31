@@ -3,8 +3,8 @@
 ## Flowchart
 ### lang = mermaid
 ```mermaid
-graph TD;
-    Start --> Stop
+graph TD
+    Start-->Stop
 ```
 
 ### lang = none
