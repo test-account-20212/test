@@ -115,7 +115,7 @@ gantt
     Another task     :after a1  , 20d
     section Another
     Task in sec      :2014-01-12  , 12d
-    another task      : 24d
+    another task      :24d
 ```
 
 ### lang = none
