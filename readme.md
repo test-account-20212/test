@@ -171,3 +171,12 @@ commit
 commit
 merge newbranch
 ```
+
+## With directives
+### lang = mermaid
+```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'dark' } }%%
+graph TD
+A-->B
+```
+
