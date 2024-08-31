@@ -176,7 +176,7 @@ merge newbranch
 ### lang = mermaid
 ```mermaid
 %%{init: { 'logLevel': 'debug', 'theme': 'dark' } }%%
-graph TD;
+graph LR;
 A-->B
 ```
 
